@@ -322,8 +322,8 @@
         border-top-right-radius: 20px;
     }
     #banner{
-        height: 600px;
-        width: 1488px;
+        height: 50%;
+        width: 100%;
     }
     .div-f2 {
         display: flex;
