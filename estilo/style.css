@@ -322,7 +322,9 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
-
+    .banner{
+        height: 500px;
+    }
     .div-f2 {
         display: flex;
         background: #fff;
