@@ -1,23 +1,38 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     body {
         background: #08B81B;
     }
 
-    .painel-principal {
+    .painel-principal { 
+        background: #fff;
         display: flex;
+        width: 100%;
+        align-items: center;
         justify-content: center;
+        margin: auto;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
 
     #frase-p {
         color: #08B81B;
-        ;
+        display: flex;
+        
     }
+    .div-logos{
+        display: flex;
+        align-items: flex-end;
+        margin-left:10px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #logowhats:hover,#logoinsta:hover{filter: brightness(70%);} 
 
     header {
         display: flex;
-        background: #fff;
-        margin: auto;
-        width: 50%;
+        
+        width: 100%;
         height: 70px;
         align-items: center;
         justify-content: center;
@@ -27,14 +42,20 @@
 
     #titulo-cab {
         color: #08B81B;
+        font-size: 15px;
+    
+    }
+    #logowhats,#logoinsta{
+        height: 30px;
     }
 
     .div-principal {
-        background: #08B81B;
+        /* background: #ffffff; */
         display: flex;
-        width: 101%;
+        width: 100%;
         margin-top: 20px;
-        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
 
@@ -53,19 +74,15 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
-
-    .spam2 {
-        background: #fff;
-        height: 15px;
-        margin-top: -4px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+    #banner{
+        display: flex;
+        height: 150px;
     }
 
     .div-f2 {
         display: flex;
         background: #fff;
-        margin-top: 10px;
+        margin-top: 1px;
         width: 99%;
         flex-direction: column;
         align-items: center;
@@ -91,93 +108,152 @@
         color: #08B81B;
         font-size: 25px;
     }
-
-}
-@media only screen and (min-width: 770px) and (max-width: 1023px){
-    body{
-        background: #08B81B;
+    #text-projetos{
+        font-size: 20px;
     }
-    .painel-principal{
+
+    .div-f3{
+        background: #fff;
+        color: #08B81B;
+        width: 100%;
+        height: 30px;
         display: flex;
+        align-items: center;
+        margin-top: 5px;
         justify-content: center;
     }
-    #frase-p{
-        color: #08B81B;;
+    #frasefinal{
+        text-align: center;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    header{
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    body {
+        background: #08B81B;
+    }
+
+    .painel-principal { 
         display: flex;
-        background: #fff;
+        width: 70%;
+        align-items: center;
+        justify-content: center;
         margin: auto;
-        width: 50%;
+    }
+
+    #frase-p {
+        color: #08B81B;
+        ;
+    }
+    .div-logos{
+        display: flex;
+        align-items: flex-end;
+        margin-right: 10px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #logowhats:hover,#logoinsta:hover{filter: brightness(70%);} 
+
+    header {
+        display: flex;
+        background: #ffffff;
+        width: 100%;
         height: 70px;
         align-items: center;
         justify-content: center;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
     }
-    #titulo-cab{
-        color:#08B81B ;
+
+    #titulo-cab {
+        color: #08B81B;
+        font-size: 25px;
+    
     }
-    .div-principal{
-        background: #08B81B;
+    #logowhats,#logoinsta{
+        height: 50px;
+    }
+
+    .div-principal {
+        /* background: #ffffff; */
         display: flex;
-        width: 101%;
+        width: 100%;
         margin-top: 20px;
-        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
-    .div-f1{
+
+    .div-f1 {
         background: #08B81B;
         display: flex;
         flex-direction: column;
         width: 99%;
         height: auto;
     }
-    
-    .spam1{
+
+    .spam1 {
         background: #fff;
         height: 15px;
         margin-top: -10px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
-    .spam2{
-        background: #fff;
-        height: 15px;
-        margin-top: -4px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+    #banner{
+        height: 300px;
     }
-    
-    .div-f2{
+
+    .div-f2 {
         display: flex;
         background: #fff;
-        margin-top: 10px;
+        margin-top: 1px;
         width: 99%;
         flex-direction: column;
         align-items: center;
-    
+
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
-    .corpo-texto{
+
+    .corpo-texto {
         width: 90%;
     }
-    #titulos{
+
+    #titulos {
         margin-left: 10px;
         color: #08B81B;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         justify-content: center;
     }
-    #textos{
+
+    #textos {
         text-align: justify;
         color: #08B81B;
         font-size: 25px;
     }
-    
+    #text-projetos{
+        font-size: 20px;
     }
 
+    .div-f3{
+        background: #fff;
+        color: #08B81B;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        justify-content: center;
+    }
+    #frasefinal{
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    }
 @media only screen and (min-width: 1024px) {
     body {
         background: #08B81B;
@@ -185,18 +261,29 @@
 
     .painel-principal {
         display: flex;
+        width: 60%;
+        align-items: center;
         justify-content: center;
+        margin: auto;
     }
 
     #frase-p {
         color: #08B81B;
         ;
     }
+    .div-logos{
+        display: flex;
+        align-items: flex-end;
+        margin-right: 10px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #logowhats:hover,#logoinsta:hover{filter: brightness(70%);} 
 
     header {
         display: flex;
         background: #fff;
-        margin: auto;
         width: 50%;
         height: 70px;
         align-items: center;
@@ -207,14 +294,16 @@
 
     #titulo-cab {
         color: #08B81B;
+    
     }
 
     .div-principal {
-        background: #08B81B;
+        /* background: #ffffff; */
         display: flex;
-        width: 101%;
+        width: 100%;
         margin-top: 20px;
-        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
 
@@ -234,18 +323,10 @@
         border-top-right-radius: 20px;
     }
 
-    .spam2 {
-        background: #fff;
-        height: 15px;
-        margin-top: -4px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
-
     .div-f2 {
         display: flex;
         background: #fff;
-        margin-top: 10px;
+        margin-top: 1px;
         width: 99%;
         flex-direction: column;
         align-items: center;
@@ -270,6 +351,18 @@
         text-align: justify;
         color: #08B81B;
         font-size: 25px;
+    }
+    #text-projetos{
+        font-size: 20px;
+    }
+
+    .div-f3{
+        background: #fff;
+        color: #08B81B;
+        width: 100%;
+        display: flex;
+        margin-top: 5px;
+        justify-content: center;
     }
 
 }
