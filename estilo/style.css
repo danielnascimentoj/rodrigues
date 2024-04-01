@@ -269,7 +269,6 @@
 
     #frase-p {
         color: #08B81B;
-        ;
     }
     .div-logos{
         display: flex;
@@ -322,9 +321,9 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
-    .banner{
-        height: 500px;
-        width: 100%;
+    #banner{
+        height: 600px;
+        width: 1488px;
     }
     .div-f2 {
         display: flex;
