@@ -360,5 +360,18 @@
     #text-projetos{
         font-size: 20px;
     } 
+    
+    #frase-final{
+      display: flex;
+      flex-direction: column;
+     
+    }
+
+    #frase-chave{
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+        margin-top: 5px;
+    }
  
 }
