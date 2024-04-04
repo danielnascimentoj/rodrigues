@@ -18,17 +18,17 @@
         gap: 10px;
     }
     #logowhats:hover,#logoinsta:hover{filter: brightness(70%);} 
-    #logowhats,#logoinsta{height: 40px;}
+    #logowhats,#logoinsta{height: 35px;}
 
     #titulo-cabecalho {
         color: #08B81B;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     header {
         display: flex;
         background: #ffffff;
-        width: 70%;
+        width: 80%;
         height: 70px;
         align-items: center;
         justify-content: center;
