@@ -99,7 +99,7 @@
     }
     #titulos {
         margin-left: 10px;
-        font-size: 40px;
+        font-size: 35px;
         color: #08B81B;
         text-align: center;
         justify-content: center;
@@ -294,7 +294,7 @@
 
     .primaria-cabecalho {
         display: flex;
-        width: 60%;
+        width: 100%;
         align-items: center;
         justify-content: center;
         margin: auto;
