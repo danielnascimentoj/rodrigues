@@ -107,7 +107,6 @@
     #subtitulos{
         color: #08B81B;
         font-size: 25px;
-        
     }
 
     #text-projetos{
@@ -367,6 +366,7 @@
     .conteudo-sobremim{
         background: #ffffff;
         margin-top: 50px;
+        text-align: center;
     }
 
     .conteudo-projetos{
