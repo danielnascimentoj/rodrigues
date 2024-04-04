@@ -1,11 +1,4 @@
-import { Analytics } from "@vercel/analytics/react"
+import { inject } from "@vercel/analytics"
 
-function App() {
-    return (
-      <div>
-        <Analytics />
-        {/* Outros componentes do seu aplicativo */}
-      </div>
-    );
-  }
+inject()
   
