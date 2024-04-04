@@ -15,14 +15,15 @@
         align-items: flex-end;
         margin-right: 10px;
         justify-content: center;
-        gap: 10px;
+        flex-direction: column;
+        gap: 5px;
     }
     #logowhats:hover,#logoinsta:hover{filter: brightness(70%);} 
     #logowhats,#logoinsta{height: 35px;}
 
     #titulo-cabecalho {
         color: #08B81B;
-        font-size: 14px;
+        font-size: 15px;
     }
 
     header {
@@ -32,6 +33,7 @@
         height: 70px;
         align-items: center;
         justify-content: center;
+        margin-right: 40px;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 20px;
     }
@@ -147,8 +149,9 @@
     }
 
     .primaria-cabecalho {
+      
         display: flex;
-        width: 90%;
+        width: 100%;
         align-items: center;
         justify-content: center;
         margin: auto;
@@ -156,8 +159,8 @@
     .div-logos{
         display: flex;
         align-items: flex-end;
-        margin-right: 10px;
-        justify-content: center;
+        margin-right: 20px;
+        justify-content: flex-end;
         gap: 10px;
     }
     #logowhats:hover,#logoinsta:hover{filter: brightness(70%);} 
@@ -169,8 +172,9 @@
     header {
         display: flex;
         background: #ffffff;
-        width: 80%;
+        width: 60%;
         height: 70px;
+        margin-right: 125px;
         align-items: center;
         justify-content: center;
         border-bottom-right-radius: 20px;
@@ -297,12 +301,11 @@
     }
     .div-logos{
         display: flex;
-        align-items: flex-end;
-        margin-right: 10px;
-        justify-content: center;
-        gap: 10px;
+        margin-right: 40px;
+        gap: 15px;
     }
     #logowhats:hover,#logoinsta:hover{filter: brightness(70%);} 
+    #logowhats,#logoinsta{height: 60px;}
 
     #titulo-cabecalho {
         color: #08B81B;
@@ -311,8 +314,9 @@
     header {
         display: flex;
         background: #ffffff;
-        width: 80%;
+        width: 60%;
         height: 70px;
+        margin-right: 175px;
         align-items: center;
         justify-content: center;
         border-bottom-right-radius: 20px;
