@@ -7,14 +7,12 @@
     <link rel="icon" href="img/icon.png" type="img/faviicon">
     <link rel="stylesheet" href="estilo/style.css" />
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FCQCK8WDHR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-FCQCK8WDHR');
-</script>
+ <script>
+  import { inject } from "@vercel/analytics";
+
+  inject();
+ </script>
   </head>
   <body>
 
