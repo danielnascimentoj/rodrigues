@@ -1,4 +1,3 @@
-// seu_script.js
-import { inject } from "@vercel/analytics"
-
-inject()
+import { inject } from '@vercel/analytics';
+ 
+inject();
