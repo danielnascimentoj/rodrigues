@@ -1,4 +1,4 @@
 // seu_script.js
-import { inject } from "@vercel/analytics"
+import { inject } from "javascript/main.js"
 
 inject()
