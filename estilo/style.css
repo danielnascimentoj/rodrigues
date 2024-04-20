@@ -25,6 +25,10 @@
         color: #08B81B;
         font-size: 15px;
     }
+    #img-sobremim{
+        height: 150px;
+        margin-left: 20px;
+    }
 
     header {
         display: flex;
@@ -360,7 +364,6 @@
 
     #img-sobremim{
         height: 563px;
-        margin-left: 100px;
     }
 
 
