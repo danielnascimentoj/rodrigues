@@ -149,7 +149,7 @@
     }
 
     #img-sobremim{
-        height: 400px;
+        height: 200px;
         margin-left: 30px;
     }
     .primaria-cabecalho {
@@ -315,6 +315,10 @@
         color: #08B81B;
     }
 
+    
+    #img-sobremim{
+        height: 300px;
+    }
     header {
         display: flex;
         background: #ffffff;
