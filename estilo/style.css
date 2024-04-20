@@ -316,9 +316,6 @@
     }
 
     
-    #img-sobremim{
-        height: 300px;
-    }
     header {
         display: flex;
         background: #ffffff;
@@ -361,7 +358,7 @@
         width: 100%;
     }
 
-    #imgsobremim{
+    #img-sobremim{
         height: 563px;
         margin-left: 100px;
     }
